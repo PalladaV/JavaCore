@@ -23,6 +23,6 @@ public class PhoneBook {
         phoneBook.add("Sidorov2", "367589");
         phoneBook.add("Sidorov", "11111111");
 
-        System.out.println(phoneBook.get("Sidorov5"));
+        System.out.println(phoneBook.get("Sidorov"));
     }
 }
