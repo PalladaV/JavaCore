@@ -40,7 +40,7 @@ public class AccuweatherModel implements WeatherModel {
                         .addPathSegment(FORECASTS)
                         .addPathSegment(VERSION)
                         .addPathSegment(DAILY)
-                        .addPathSegment(FIVE_DAYS)
+                        .addPathSegment(String.valueOf(FIVE_DAYS))
                         .addPathSegment(detectCityKey(selectedCity))
                         .addQueryParameter(API_KEY_QUERY_PARAM, API_KEY)
                         .build();
